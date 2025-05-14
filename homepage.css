@@ -1,0 +1,167 @@
+
+body{
+    background-image: url(hotel.jpg);
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+}
+.toolbar{
+    margin: 0px;
+    border: 0px;
+    display: block;
+    height: 60px;
+    padding: 25px; 
+    background-color: black;   
+    opacity: 0.6;
+}
+ul.tools{
+    list-style: none;
+    word-spacing: 250px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+li#head{
+    display: inline;
+    word-spacing: 5px;
+    text-decoration: none;
+    margin-left: 0px;
+   
+}
+a{
+    text-decoration: none;
+    font-size: larger;
+    font-family:"Playwrite GB S", cursive;
+    color: white;
+    font-weight: bold;
+
+}
+a[id="header"]:hover{
+    color: #D91818;
+}
+a[id="header"]:active{
+    color: #91A646;
+}
+li[id="headlan"]:hover{
+    color: #D91818;
+}
+li[id="headlan"]:active{
+    color: #91A646;
+}
+li[id="headlan"]{
+    display: inline;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: larger;
+    font-family:"Playwrite GB S", cursive;
+    color: white;
+    font-weight: bold;
+}
+select[name="language"]{
+    display: inline;
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    border: 2PX solid grey;
+    font-family:"Playwrite GB S", cursive;
+}
+.destination{
+    height: 250px;
+    width: 1900px;
+    margin-top: 500px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+ul.selector{
+    list-style: none;
+    text-decoration: none;
+    word-spacing: 70px;
+    padding-left: 250px;
+    font-size: larger;
+    font-family:"Playwrite GB S", cursive;
+    font-weight: bold;
+    display: block;
+    background-size: 550px 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+li#stay{
+    display: inline;
+    letter-spacing: 3px;
+    word-spacing: 4px;
+    margin-left: 110px;
+}
+li#filter{
+    display: inline;
+    letter-spacing: 3px;
+    word-spacing: 4px;
+    margin-left: 80px;
+}
+select[name="range"]{
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    border: 2PX solid grey;
+    font-family:"Playwrite GB S", cursive;
+}
+
+#radiobt{
+    display: inline;
+    gap: 2rem;
+
+}
+#destitb{
+    border-collapse: collapse;
+    height: 90px;
+    width: 1800px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+ul[id="row"]{
+    padding-top: 10px;
+    list-style: none;
+    padding-left: 50px;
+    margin-left: 200px;
+}
+#data{
+    padding-left: 20px;
+    display: inline;
+}
+input[name="area"]{
+    height: 70px;
+    width: 280px;
+    text-align: center;
+    font-size: larger;
+    font-family:"Playwrite GB S";
+    font-weight: bold;
+}
+input[name="date"]{
+    height: 70px;
+    width: 230px;
+    text-align: center;
+    font-size: larger;
+    font-family:"Playwrite GB S";
+    font-weight: bold;
+}
+input[name="NO OF PERSON"]{
+    height: 70px;
+    width: 230px;
+    font-family:"Playwrite GB S", cursive;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+}
+.searchbtn{
+    height: 70px;
+    width: 230px;
+    font-family:"Playwrite GB S", cursive;
+    color: #F2F2F2;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    background-color: #4AD97C;
+    border: solid 5px #4AD97C ;
+}
+.searchbtn:hover{
+    color: #0D0D0D;
+}

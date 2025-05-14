@@ -1,0 +1,112 @@
+body{
+    margin: 0px;
+    background-image: url(bg2.jpg);
+    background-size: 1920px 1080px;
+  }
+  .container{
+    display: flex;
+    position: relative;
+    top: 80px;
+    left: 190px;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 750px;
+    width: 1500px;
+    background-color: white;
+  }
+  .slideshow-container{
+    position: relative;
+    height: 700px;
+    width: 900px;
+    align-items: center;
+  } 
+  @keyframes fade {
+    0% {
+      opacity: 1;
+    }
+    33% {
+      opacity: 0;
+    }
+    67%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+  img{
+    height: 700px;
+    width: 900px;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    object-fit: cover;
+    animation: fade 9s ease-in-out infinite alternate;
+  }
+  
+  img:nth-last-of-type(1){
+    animation-delay: 0s;
+  }
+  
+  img:nth-last-of-type(2){
+    animation-delay: 3s;
+  }
+  
+  img:nth-last-of-type(3){
+    animation-delay: 6s;
+  }
+  
+  .dialouge-box{
+    height: 700px;
+    width: 450px;
+    position: relative;
+    bottom: 20px;
+    align-items: center;
+    border-radius: 30px;
+    top: 0px;
+  }
+  #select{
+    text-align: left;
+    font-size:40px;
+    color: #000;
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 500px;
+    font-style: normal;
+  }
+  #pwd{
+    height: 45px;
+    width: 403px;
+    margin-top: 20px;
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    border: 2px solid white;
+    background: #4AD97C;
+    color:#000;
+  }
+  #btn{
+    margin-top: 20px;
+    margin-left: 150px;
+    height: 45px;
+    width: 100px;
+    border: solid 1px black;
+    background-color: #4AD97C;
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    border: 2px solid white;
+  }
+  #back{
+    display: block;
+    text-decoration: none;
+    margin-left: 130px;
+    margin-top: 50px;
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
